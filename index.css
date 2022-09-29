@@ -96,9 +96,9 @@ body {
     .grid {
         display: grid;
         grid-template:
-        "a" 1fr
-        "b" 1fr
-        "c" 1fr
+        "a" 2fr
+        "b" 2fr
+        "c" 2fr
         ;
         gap: 5px;
         width: 80%;
