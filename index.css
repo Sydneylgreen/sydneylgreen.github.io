@@ -78,16 +78,16 @@ body {
     .grid {
         display: grid;
         grid-template:
-        "a" 1fr
-        "b" 1fr
-        "c" 1fr
+        "x" 1fr
+        "y" 1fr
+        "z" 1fr
         ;
         gap: 5px;
         width: 80%;
         margin: auto; 
     }
     body{
-        background: #497487;
+        background-color: #497487;
     }   
   }
 
@@ -96,9 +96,9 @@ body {
     .grid {
         display: grid;
         grid-template:
-        "a" 2fr
-        "b" 2fr
-        "c" 2fr
+        "x" 2fr
+        "y" 2fr
+        "z" 2fr
         ;
         gap: 5px;
         width: 80%;
