@@ -58,6 +58,7 @@ body {
     padding: .5em;
     position: sticky;
     top: 0;
+    font-size: x-large;
   }
 
   nav ul {
@@ -72,6 +73,36 @@ body {
     color: #497487;
     text-decoration: none;
     padding: .5em 1em;
+  }
+
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .feature {
+    width: 300px;
+    float: left;
+    padding: 20px;
+}
+
+.features {
+    width: 400px;
+    float: right;
+    padding: 20px;
+}
+
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
   }
 
   @media screen and (max-width: 400px){
