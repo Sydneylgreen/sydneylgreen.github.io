@@ -11,7 +11,7 @@
     <body>
 <div>Testers For Ica8</div>
 
-<button id="myBtn">Try it</button>
+<button id="myBtn">Hover Over To See My Favorite Color</button>
 
 <p id="demo"></p>
 
@@ -24,6 +24,20 @@ function myFunction() {
   document.getElementById("demo").innerHTML += "Gold!<br>";
 }
 
+</script>
+
+<script>
+    var button = document.createElement("button");
+button.innerHTML = "Back To Home Page";
+
+// 2. Append somewhere
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(button);
+
+// 3. Add event handler
+button.addEventListener ("click", function() {
+    location.href = "index.html";
+  });
 </script>
 
          
