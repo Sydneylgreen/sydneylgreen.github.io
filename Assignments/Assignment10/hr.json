@@ -1,0 +1,40 @@
+{
+  "squadName" : "Human Resources",
+  "Companyname" : "Tech Stars",
+  "website" : "www.techstars.site",
+  "secret" : "www.techstars.site",
+  "active" : true,
+  "members" : [
+    {
+      "name" : "Sam",
+      "designation" : "Manager",
+      "department" : "Tech",
+      "salary" : "40000",
+      "raise" : true
+    },
+    {
+      "name" : "Mary",
+      "designation" : "Trainee",
+      "department" : "Finance",
+      "salary" : "18500",
+      "raise" : true
+    },
+    {
+      "name" : "Bill",
+      "designation" : "Executive",
+      "department" : "HR",
+      "salary" : "21200",
+      "raise" : false
+    },
+    {
+      "name" : "Anna",
+      "designation" : "Executive",
+      "department" : "Tech",
+      "salary" : "25600",
+      "raise" : false
+    }
+  ]
+}
+
+
+    
