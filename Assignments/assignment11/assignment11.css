@@ -29,6 +29,7 @@ html {
   header {
     width: 100%;
     font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #B86161;
     text-align: center;
     padding: 10px;
