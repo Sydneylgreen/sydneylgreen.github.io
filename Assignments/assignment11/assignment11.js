@@ -3,7 +3,7 @@
 const quoteButton = document.querySelector('.new-quote');
 quoteButton.addEventListener('click', getQuote);
 
-const endpoint = 'http://quotes.stormconsultancy.co.uk/random.json';
+const endpoint = 'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?';
 
 async function getQuote() {
     //console.log('test click worked');
@@ -12,8 +12,8 @@ async function getQuote() {
    // .then(text => text.text{});
     let json_response = JSON.parse(response);
     //console.log(json_response);
-    console.log(json_response['quote']);
-    displayQuote(json_response['quote']);
+    console.log(json_response['quoteText']);
+    displayQuote(json_response['quoteText']);
 }
 
 
