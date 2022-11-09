@@ -1,0 +1,14 @@
+body {
+    background-color: lightgray;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1em;
+    margin: 0;
+  }
+
+  h1 {
+    color: #B86161;
+    font-size: 50pt;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 5px double #497487;
+  }
