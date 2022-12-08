@@ -98,13 +98,10 @@ body {
     padding: 20px;
 }
 
-  .photos {
-    list-style: none;
-    margin: 0;
-    padding: 1px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1px;
+  #photos {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
   }
 
   @media screen and (max-width: 400px){
