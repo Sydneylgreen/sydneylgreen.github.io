@@ -101,7 +101,7 @@ body {
   #photos {
     display: flex;
     flex-direction: row;
-    width: 90vw;
+    width: 80vw;
   }
 
   @media screen and (max-width: 400px){
