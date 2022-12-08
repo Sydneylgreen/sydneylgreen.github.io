@@ -34,7 +34,7 @@ button{
     border: 3px solid black;
     border-radius: 0.3rem;
     margin: 1rem auto;
-    display: block;
+    display: flex;
 }
 #btn{
     background-color: #497487;
@@ -94,4 +94,5 @@ nav {
     color: #497487;
     text-decoration: none;
     padding: .5em 1em;
+    display: flex;
   }
